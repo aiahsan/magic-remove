@@ -1,0 +1,177 @@
+.review_section1{
+   
+    width: 100%;
+    background-color:#F9F9F9;
+    font-family: 'Ubuntu';
+    padding-top: 1rem ;
+    margin-bottom: 61px;
+}
+@media(max-width:768px){
+   
+}
+.review-title_min{
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    width: 23rem;
+}
+.review-numbers{
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 120.4%;
+    /* or 40px */
+    
+    
+    /* Primary Text */
+    
+    color: #2E2E2E;
+    
+}
+
+.jhon-doe-p
+{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 149.19%;
+/* or 22px */
+
+text-align: center;
+
+color: #8D8D8D;
+}
+.review_min{
+    position: absolute;
+    top: 11rem;
+    left: 2.2rem;
+}
+.review_min2{
+    position: absolute;
+    top: 12.5rem;
+    left: 2.2rem;
+}
+.review_min3{
+    position: absolute;
+    top: 11rem;
+    left: 15.1rem;
+}
+.review_min4{
+    position: absolute;
+    top: 12.5rem;
+    left: 15.1rem;
+}
+.person_review{
+   
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 23px rgba(121, 121, 121, 0.25);
+    border-radius: 5px;
+}
+.review_person1{
+    position: absolute;
+    top: 5.6rem;
+    left: 10.5rem;
+    font-weight: bold;
+}
+.review_person{
+    position: absolute;
+    top: 8rem;
+    left: 3.5rem;
+    text-align: center;
+    width: 17.2rem;
+}
+@media(max-width:768px){
+    
+}
+/* .person_pic{
+   
+} */
+.quote_sign{
+   position: relative;
+   left: 90%;
+    margin-top: -15%;
+}
+.preview_box
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    max-width: 403px;;
+}
+.jhondoe-text
+{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 149.19%;
+/* or 22px */
+padding:10px 35px 10px 35px;
+text-align: center;
+
+color: #8D8D8D;
+}
+.slider_circle{
+    height: 7px !important;
+    width: 7px !important;
+    border-radius: 50% !important;
+    border: 1px solid #C4C4C4 !important;
+    cursor: pointer;
+}
+.active-slider_circle{
+    background-color: #A6C94A !important;
+}
+.slider_circle2{
+    position: absolute;
+    left: 20.5rem;
+}
+.slider_circle3{
+    position: absolute;
+    left: 22.5rem;
+}
+.slider_circle4{
+    position: absolute;
+    left: 23.5rem;
+
+}
+@media(max-width:768px){
+    .slider_circle{
+        position: absolute;
+        top: 33rem;
+        left: 12rem;
+    }
+    .slider_circle2{
+        position: absolute;
+        left: 13rem;
+    }
+    .slider_circle3{
+        position: absolute;
+        left: 14rem;
+    }
+    .slider_circle4{
+        position: absolute;
+        left: 15rem;
+    }    
+}
+@media screen and (max-width:468px){
+    .person_review{
+        /* margin-left: 1.2rem; */
+        width: 100%;
+    }
+    .quote_sign{
+        margin-left: -1rem;
+    }
+    .review-numbers{
+        margin-left: .1rem;
+    }
+    .r100{
+        margin-left: .6rem;
+    }
+    .llo{
+        margin-left: .8rem;
+    }
+}
+

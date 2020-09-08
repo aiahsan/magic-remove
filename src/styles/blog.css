@@ -1,0 +1,220 @@
+
+.blog_div-pic{
+    position: absolute;
+    width: 100%;
+    height: 68%;
+    left: 0;
+    top: 0;
+    background:url('../img/Rectangle 36.png');
+    border-radius: 11px 11px 0px 0px;
+}
+.blog_bold-text{
+    width: 20rem;
+    color: #131313;
+}
+.sm-icon{
+    position: absolute;
+    top: 23.5rem;
+    left: 1.5rem;
+}
+.sm-icon2{
+    position: absolute;
+    top: 23.45rem;
+    left: 7rem;
+}
+
+.sm-date{
+    position: absolute;
+    top: 23.3rem;
+    left: 3rem;
+    font-size: .9rem;
+    font-family: 'Ubuntu';
+    color: #717171;
+}
+.sm-date2{
+    position: absolute;
+    top: 23.3rem;
+    left: 8.3rem;
+}
+.blog_div{
+    font-family: 'Ubuntu';
+}
+
+.blog_box{
+    /* position: absolute; */
+    width: 33rem;
+    height: 43rem;
+    /* left: 0.4rem;
+    top: 4.5rem; */
+    /* border: 1px solid black; */
+    background-image: url('../img/Rectangle 6.png');
+    background-repeat: no-repeat;
+    background-position:center center;    
+    border-radius: 11px;
+}
+.blog_box-sm{
+    /* position: absolute; */
+    width: 263px;
+    height: 340px;
+    /* left: 1.5rem;
+    top: 4.5rem; */
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.image_box-sm{
+    width: 100%;
+    height: 212px;
+    background-image: url('../img/Rectangle 7.png');
+    background-position:center center;
+    border-radius: 11px 11px 0px 0px;
+}
+.blog_box-md{
+    width: 350px;
+    height: 423px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.image_box-md{
+    width: 350px;
+    height: 281px;
+    background-image: url('../img/Rectangle 36.png');
+    background-position:center center;
+    border-radius: 11px 11px 0px 0px;
+}
+.flex-div{
+    display: flex;
+    /* flex-basis: 32%; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.bg_title{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-top: 470px;
+    width: 27rem;
+}
+.sm_text-content{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 151.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+.sm_green-div{
+    width: 126px;
+    height: 25px;
+    background: #A6C94A;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: inline-block;
+}
+.para-in{
+    display: inline-block;
+    margin-left: 150px;
+}
+@media screen and (max-width:1200px){
+    .para-in{
+        margin-left: 130px;
+    }
+    .bg_title{
+        width: 25rem !important;
+    }
+}
+@media screen and (max-width:991px){
+    .bg_title{
+        margin-left: 3rem;
+        width: 37rem;   
+    }
+    .sm_text-content{
+        margin-left: 3rem;
+        width: 34rem;
+    }
+    .sm_green-div{
+        margin-left: 3rem;
+    }
+    .para-in{
+        padding-left: 18rem;
+    }
+
+}
+@media screen and (max-width:768px){
+    .bg_title{
+        margin-left: 0;
+        width: 37rem;   
+    }
+    .sm_text-content{
+        margin-left: 0;
+        width: 25rem;
+    }
+    .sm_green-div{
+        margin-left: 0;
+    }
+    .para-in{
+        margin-top: -2rem !important;
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+
+}
+
+
+@media screen and (max-width:468px){
+    .blog_box{
+        width: 21.5rem !important;
+    }
+    .bg_title{
+        /* margin-left: 0; */
+        width: 100% !important;
+        margin-top: 27rem;
+    }
+    .sm_text-content{
+        margin-left: 0;
+        width: 100%;
+    }
+    .sm_green-div{
+        margin-left: 0;
+    }
+    .para-in{
+        margin-top: -2rem !important;
+        padding-top: 0;
+        padding-left: 10rem;
+    }
+    .blog_box-md{
+        width: 19.5rem !important;
+    }
+    .image_box-md{
+        width: 100%;
+    }
+
+}
+.sm_text-content2{
+    line-height: 151.4%;
+    letter-spacing: 0.005em;
+    color: #717171;
+    font-size: 11px;
+}
+.inline_text-content{
+    display: inline-block;
+    margin-top: 0 !important;
+    margin-left: 8rem;
+}
+.bold_text{
+    letter-spacing: 0.005em;
+    font-size: 20px;
+    font-weight: 600;
+    color: #151515;
+}
+      

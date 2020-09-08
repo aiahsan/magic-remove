@@ -1,0 +1,92 @@
+.back_api{
+    font-family: 'Ubuntu' !important;
+}
+.head_apirem{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+}
+.para_apirem{
+    font-size: 16px;
+    line-height: 150.19%;
+    color: #8D8D8D;
+}
+.market_man{
+    width: 500px;
+}
+@media screen and (max-width:500px){
+    .market_man{
+        width: 340px;
+    }
+}
+.tall_card{
+    width: 230px;
+    height: 384px;
+    background: #C4C4C4;
+    border-radius: 5px;
+}
+.short_card{
+    width: 232px;
+    height: 188px;
+    background: #C4C4C4;
+    border-radius: 5px;
+}
+.sm_crcle{
+    width: 34px;
+    height: 34px;
+    background: #EBF7D3;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-bottom: 0 !important;
+    
+}
+.crcl_no{
+    font-size: 25px;
+    color: #A6C94A;
+    margin:4px 10px;
+}
+.vert_green-line{
+    width: 150px;
+    height: 0px;
+    border: 1px solid #EEEEEE;
+    transform: rotate(90deg);
+    margin-left: -19.6px !important;
+}
+@media screen and (max-width:991px){
+    .sm_crcle{
+        margin-left: 50px !important;
+    }
+    .vert_green-line{
+        margin-left: -6.7px !important;
+    }
+}
+@media screen and (max-width:768px){
+    .sm_crcle{
+        margin-left: 0px !important;
+    }
+    .vert_green-line{
+        margin-left: -58px !important;
+    }
+}
+@media screen and (max-width:480px){
+    .API-Box{
+        width: 100% !important;
+    }
+    .apiCopyBtn{
+        width: 100% !important;
+    }
+    .API-String{
+        width: 100% !important;
+    }
+    .test-label{
+        width: 100% !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+    .more-api-box{
+        margin-left: auto !important;
+        width: 100% !important;
+        /* text-align: center !important; */
+    }
+}

@@ -1,0 +1,205 @@
+.proc_div{
+    font-family: 'Ubuntu';
+    
+}
+.sm-green{
+   
+    width: 37px;
+    height: 3px;
+    top: 7px;
+    left: 2rem;
+    background: #A6C94A;
+    border-radius: 62px;
+}
+.bold_head{
+    font-weight: 600;
+    
+}
+.proc-title_min{
+    
+    line-height: 149.19%;
+  
+}
+.font-work-all
+{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 149.19%;
+/* or 24px */
+
+
+color: #8D8D8D;
+}
+.vid_btn{
+    margin:-10px ;
+    cursor: pointer;
+}
+.rectangle_box{
+   
+    background: #FFFFFF;
+    box-shadow: 0px 2px 23px rgba(121, 121, 121, 0.25);
+    border-radius: 14px;
+    display: flex;
+    max-width: 368px;
+    float: right;
+    margin-top: 13px;
+}
+.process-box-main
+{
+    padding-right: 15%;}
+.upld-icn{
+   width: 34px;
+   height: 34px;
+}
+.upd-icn-bx{
+    padding:21px
+}
+.mini-bold{
+    margin-top: 21px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    /* secondary Text */
+    
+    color: #676767;
+
+}
+.mrt-84{
+    margin-top:84px!important
+}
+.mini-p{
+    margin-top: -10px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 139.19%;
+    /* or 21px */
+    
+    padding-right: 20px;
+    color: #8D8D8D;
+
+}
+.proc_des{
+    position: absolute;
+    top: 3rem;
+    left: 4.8rem;
+    width: 15rem;
+}
+.gray-div{
+   
+    height: 100%;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+.bold-head_des{
+    max-width: 25rem;
+}
+/* .des_div{
+  
+} */
+.des-title_min{
+    position: absolute;
+    top: 9rem;
+}
+.des-title_min2{
+    position: absolute;
+    top: 12rem;
+}
+.des_box{
+  
+    width: 50%;
+    height: 80%;
+    height: 275px;
+    max-width: 275px;
+max-height: 275px;
+    background-color: #E9E9E9;
+    border: 1px solid #DCD4D4;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.des_box2{
+  
+    position: relative;
+    top:30%;
+    right:20%;
+}
+.rect-box_text{
+    width: 10rem !important;
+}
+@media(max-width:992px){
+    .des_box{
+        width: 235px!important;
+        height: 235px!important;
+    }
+}
+@media(max-width:969px){
+    .des_box{
+        width: 200px!important;
+        height: 200px!important;
+    }
+}
+@media(max-width:767px){
+    .des_div{
+        padding-top: 100px;
+    }
+}
+@media(max-width:568px){
+    .des_box{
+        width: 180px!important;
+        height: 180px!important;
+    }
+}
+@media screen and (max-width:468px){
+    .proc-title_min{
+        width: 100%;
+    }
+    .rectangle_box{
+        /* margin-left: -2.6rem !important; */
+        width: 100% !important;
+    }
+    .bold_head{
+        width: 100%;
+    }
+    .mini-p{
+        /* margin-left: -1.3rem; */
+        width: 100%;
+        height: 5rem;
+    }
+    .rect-box_text{
+        width: 100% !important;
+    }
+    .contact_infoHead{
+        width: 100% !important;
+    }
+    .pricing_text-context{
+        width: 17rem !important;
+    }
+    .g-line{
+        margin-left: 6rem !important;
+    }
+    .API-Box{
+        margin-left: -.5rem !important;
+        width: 270px !important;
+    }
+    .test-label{
+        margin-left: 0.5rem !important;
+        width: 17rem;
+    }
+    .theme-btn{
+        margin-left: -5rem;
+    }
+    .more-api-box{
+        margin-left: -2.5rem !important;
+        width: 270px;
+    }
+}
+
+

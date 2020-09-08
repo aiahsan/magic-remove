@@ -1,0 +1,71 @@
+.foot-div{
+    position: relative;
+    top: 104rem;
+    width: 100%;
+    height: 22rem;
+    background-color: black;
+}
+.foot-div1{
+    width: 100%;
+    height: 22rem;
+    background-color: black;
+}
+@media screen and (max-width:768px){
+    .foot-div{
+        position: relative;
+        top: 140rem;
+    }
+}
+.footer_logo{
+    margin-top: 5%;
+    width: 10rem;
+}
+.foot_Font
+{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 17px;
+
+color: #A4A4A4;
+padding-right: 10px;
+}
+.footerNav
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.footer_links{
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+}
+a.match-title_min:hover{
+    text-decoration: none;
+    color: #8D8D8D;
+}
+.app-logos{
+    position: absolute;
+    top: 12rem;
+    left: 15.5rem;
+}
+.copyright_tag{
+    position: absolute;
+    top: 18rem;
+    left: 12rem;
+}
+
+
+.footer_Box{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+@media screen and (max-width:468px){
+    .footerNav{
+        width: 90%;
+    }
+}

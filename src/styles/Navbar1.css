@@ -1,0 +1,40 @@
+.web-logo{
+    width: 11rem;
+}
+.nav-new{
+    background-color: white !important;
+    border-bottom: 1px solid rgb(241, 234, 234) !important;
+    color: black !important;
+}
+.nav-links{
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500 !important;
+}
+.remove-backgroundBtn{
+    background: #A6C94A!important;
+    border: 1px solid #A6C94A!important;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(124, 192, 241, 0.25);
+    border-radius: 50px!important;
+    color: white;
+    margin: 0 5px;
+}
+.log-btn{
+    border-radius: 4rem !important;
+    color: black !important;
+    border: 1px solid #A6C94A !important;
+}
+
+.log-btn:hover{
+    color: white !important;
+    border: 1px solid #A6C94A !important;
+
+}
+.login-icon{
+    margin-bottom: .1rem !important;
+}
+
+/*
+heading styles
+*/
+

@@ -1,0 +1,224 @@
+.upload-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.borderTB
+{
+    border-top:1px solid #dee2e6
+    
+}
+.upload-parent1{
+    position: absolute;
+    bottom: 72px;
+}
+.upload-title-modal {
+    max-width: 537px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #676767;
+}
+.edit-pencil-icon
+{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.edit-bar-parent-btn
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.edit-bar-p-btn
+{
+    width: 115px;
+    height: 29px;
+    border-radius: 16px;
+}
+.edit-bar-e-btn
+{
+    background: #EBF7D3;
+    border: 0.5px solid #EAEAEA;
+}
+.edit-bar-r-btn
+{
+    background: #FFFFFF;
+    border: 0.5px solid #EAEAEA;
+}
+.mt-p50
+{
+    margin-top: 30%;
+}
+.modal-footer {
+justify-content: center!important;
+}
+.cursor
+{
+    cursor: pointer;
+    color: black!important;
+}
+.txt-center
+{
+    text-align:center;
+}
+.f-26
+{
+    font-size: 2.6rem;
+}
+.drag-drop-zone.inside-drag-area {
+    opacity: 0.7;
+  }
+
+  .or-Img
+  {
+  }
+  .btn-xros
+  {
+    position: relative;
+    float: right;
+    top: -2px;
+    right: 40px;
+    background-color: #efefef!important;
+  }
+  .dropdown-item.active, .dropdown-item:active {
+  background-color: #a6c94a!important;
+}
+.tool-control-head
+{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.editbar-crbtn
+{
+    border-radius: 26px!important;
+    padding: 0!important;
+    width: 26px!important;
+    border: 1px solid #eaeaea!important;
+    margin-right: 10px!important;
+    margin-left: 10px!important;
+
+}
+.mdc-1 .modal-dialog .modal-content
+{
+    background-color: transparent!important;
+}
+.edit-p-bar
+{
+    background-color: white;
+    margin-left: -72px;
+    padding: 0px!important;
+}
+.edit-p-text
+{
+    text-align: center;
+    background: #EBF7D3;
+    padding: 11px;
+    margin: 0px;
+    color: #A6C94A;
+}
+.canvas-img-editor
+{
+    width: 99%;
+    margin: 0px 5px 0px 5px;
+}
+.editbar-crbtn-color
+{
+    color: #c7c7c7!important;
+}
+
+.pd-0
+{
+    padding: 0px!important;
+}
+.modal-lg
+{
+    max-width: 960px!important;
+    max-height: 555px!important;
+}
+.rangeslider-horizontal .rangeslider__handle:after {
+    content: ' ';
+    position: absolute;
+    
+    top: 6px;
+    left: 6px;
+    border-radius: 50%;
+    background-color: #a6c94a!important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 3px rgba(0, 0, 0, 0.4) inset
+}
+.rangeslider rangeslider-horizontal
+{
+    margin: 20px 18px 0px 0px!important;
+}
+.rangeslider, .rangeslider .rangeslider__fill
+{
+    box-shadow: none!important;
+}
+.rangeslider-horizontal .rangeslider__handle:after {
+width: 0px!important;
+height: 0px!important;
+}
+.rangeslider-horizontal .rangeslider__handle {
+    width: 20px!important;
+    height: 20px!important;
+    }
+.rangeslider .rangeslider__handle
+{
+    background: #a6c94a!important;
+    border: 1px solid #a6c94a;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+     box-shadow:none!important 
+}
+.editor-parent
+{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.editor-lbl
+{
+    color: #8D8D8D;
+}
+
+.ediotr-panel
+{
+    background-color: white!important
+}
+.ediotr-panel button svg
+{
+color: #b1b1b1!important;
+font-size: 18px;
+}
+.ediotr-panel button
+{
+    background: white!important;
+    margin-right: 10px;
+    border: none!important;
+}
+.sliderItems-box
+{
+display: flex;
+flex-wrap: wrap;
+}
+.back-bg-box
+{
+ background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    max-width: 64px!important;
+    max-height: 64px!important;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+  @media (max-width:768px)
+  {
+    .upload-parent1{
+        position: initial;
+        
+    }
+  }

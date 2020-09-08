@@ -1,0 +1,311 @@
+.upload-div{
+    background-image: url('../img/Vector 1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35rem;
+    margin-top: -30rem;
+    /* margin-left: 3.6rem; */
+    /* margin-bottom: -1rem !important; */
+}
+.upload-div_login{
+    margin-top: -15rem;
+}
+.logpage-bg{
+    width: 47.1rem;
+    height: 24rem;
+}
+.rem-logo{
+    width: 8rem;
+}
+.login-title{
+    /* position: relative;
+    top:7rem;
+    left: 7rem; */
+    margin-top: 5rem;
+    margin-left: -2.5rem;
+    display: inline-block;
+}
+.back-box{
+    
+    display: inline-block;
+    /* margin-top: 1rem !important;
+    margin-left: 13rem; */
+    width: 75px;
+    height: 57px;
+    background: rgba(181, 225, 91, 0.27);
+    border-radius: 15px 15px 0px 15px;
+}
+.login-title_min{
+    font-size: .8rem;
+    color: #8D8D8D;
+}
+.login-title_min2{
+}
+.forget_link{
+    color: #A6C94A;
+    text-decoration: none;
+}
+.forget_link:hover{
+    color: #A6C94A;
+    text-decoration: none;
+}
+.mail-div{
+    /* position: relative; */
+}
+.form-section{
+    /* position: absolute;
+    top: 15rem;
+    left: 7rem; */
+    /* position: relative;
+    top: 8rem;
+    left: 6.8rem; */
+}
+.form-input{
+    height: 3.2rem !important;
+    border-radius: 4rem !important;
+    border: 1px solid #A6C94A !important;
+    width: 90% !important;
+    display: inline-block !important;
+}
+.img-btn_icon{
+    border: none !important;
+    background: white !important;
+    margin-left: -3rem;
+}
+.form-input::placeholder{
+    padding: 1rem;
+    font-size: .8rem;
+}
+.form-input-2{
+    /* position: absolute;
+    top: 4rem !important; */
+}
+/* .form-logo{
+    position: absolute;
+    left: 20.2rem;
+    top: 1.3rem;
+}
+.form-logo-1{
+    position: absolute;
+    top: 5rem;
+} */
+.signin-btn{
+    /* position: absolute;
+    top: 24rem;
+    left: 6.9rem; */
+    color: #676767 !important;
+    padding: .8rem 0 !important;
+    /* padding: .8rem 3rem !important; */
+    border: .1rem solid rgba(84, 157, 209, 0.25) !important;
+    border-radius: 4rem !important;
+    width: 50%;
+}
+.gr-txt{
+    color: #A6C94A;
+}
+.gr-txt:hover{
+    color: #A6C94A;
+    text-decoration:none;
+}
+/* .register-btn{
+    position: absolute;
+    left: 19.5rem;
+} */
+.signin-btn:hover{
+    background: linear-gradient(270deg, #189DD4 -67.23%, #BDE455 100%) !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+.signin-btn:not(:disabled):not(.disabled):active, .signin-btn:not(:disabled):not(.disabled).active,
+.show > .signin-btn.dropdown-toggle {
+    color: #fff !important;
+    background: linear-gradient(270deg, #189DD4 -67.23%, #BDE455 100%) !important;
+    border: 1px solid white !important;
+}
+.fb-btn{
+    /* position: absolute;
+    top: 14.8rem;
+    left: 6rem; */
+    border-radius: 4rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+.g-btn{
+    /* position: absolute;
+    top: 18.8rem; */
+    padding-right: 3.4rem !important;
+}
+/* @media(max-width:768px){
+    .v-line{
+        position: absolute;
+        top: 29rem;
+        left: 10.2rem;
+        width: 50%;
+        transform: rotate(180deg);
+    }
+    .fb-btn{
+        position: absolute;
+        top: 25rem;
+        left: 6rem;
+    }
+    .g-btn{
+        position: absolute;
+        top: 25rem;
+        left: 20rem;
+    }
+}
+@media(min-width:768px){
+    .fb-btn{
+        position: absolute;
+        top: 14.8rem;
+        left: 13rem;
+    }
+    .g-btn{
+        position: absolute;
+        top: 18.8rem;
+    }    
+} */
+.border-cut{
+    /* float: right; */
+    width: 38.6rem;
+}
+/* .form-input-3{
+    position: absolute;
+    top: 8rem;
+}
+.form-input-4{
+    position: absolute;
+    top: 12rem;
+}
+.loginbtn-2{
+    position: absolute;
+    top: 32rem;
+} */
+.fbsign-btn{
+    /* position: absolute;
+    top: 14.8rem;
+    left: 6rem; */
+    width: 15rem;
+    margin-top: 17rem;
+    border-radius: 4rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+.gsign-btn{
+    /* position: absolute;
+    top: 18.8rem; */
+    margin-top: 1rem;
+    padding-right: 3.4rem !important;
+}
+.v-line2{
+    /* position: absolute;
+    top: 17rem;
+    left: 29.5rem; */
+    transform: rotate(90deg);
+    margin-top: 21rem;
+}
+.v-line{
+    /* position: absolute;
+    top: 17rem;
+    left: 29.5rem; */
+    transform: rotate(90deg);
+    margin-top: 17rem;
+}
+
+/* @media(max-width:768px){
+    .v-line2{
+        position: absolute;
+        top: 35.7rem;
+        left: 10.2rem;
+        width: 50%;
+        transform: rotate(180deg);
+    }
+    .fbsign-btn{
+        position: absolute;
+        top: 32rem;
+        left: 6rem;
+    }
+    .gsign-btn{
+        position: absolute;
+        top: 32rem;
+        left: 20rem;
+    }
+}
+@media(min-width:768px){
+    .fbsign-btn{
+        position: absolute;
+        top: 14.8rem;
+        left: 14rem;
+    }
+    .gsign-btn{
+        position: absolute;
+        top: 18.8rem;
+    }    
+   
+} */
+
+#root
+{
+    width:100%!important
+}
+@media (max-width:768px)
+{
+    .border-cut2
+    {
+        float:none!important;
+    }
+    .border-cut
+    {
+        float:none!important;
+    }
+}
+.mail-ico{
+    /* position: absolute;
+    top: 5.25rem; */
+}
+.eye-ico{
+    /* position: absolute;
+    top: 9rem; */
+    cursor: pointer;
+}
+.eye-ico2{
+    /* position: absolute;
+    top: 13rem; */
+    cursor: pointer;
+}
+.border-cut2{
+    float: right;
+}
+@media screen and (max-width:991px){
+    .v-line2{
+        transform: none !important;
+        margin-top: 5rem !important;
+    }
+    .v-line{
+        transform: none !important;
+        margin-top: 5rem !important;
+    }
+    .fbsign-btn{
+        margin-top: 2rem !important;
+    }
+}
+@media screen and (max-width:480px){
+    .form-input{
+        width: 100% !important;
+    }
+    .v-line2{
+        transform: none !important;
+        margin-top: 3rem !important;
+        width: 14rem;
+    }
+    .v-line{
+        transform: none !important;
+        margin-top: 3rem !important;
+        width: 14rem;
+    }
+    .fbsign-btn{
+        margin-top: 2rem !important;
+        margin-left: 10%;
+    }
+}
